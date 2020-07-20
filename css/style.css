@@ -32,7 +32,7 @@
   font: normal bold 14px/19px Open Sans;
 }
 
-.hapo-nav-item:nth-child(6) {
+.last-item {
   min-width: 65px;
 }
 
