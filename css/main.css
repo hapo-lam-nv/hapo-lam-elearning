@@ -1,1 +1,24 @@
-exit
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: auto;
+  max-width: 1366px;
+}
+
+@font-face {
+  font-family: font_main;
+  src: url("../font/UTM BryantLG.ttf");
+}
+
+.font-main {
+  font-family: font_main;
+  font-style: normal;
+  letter-spacing: -0.05em;
+  color: #ffffff;
+}
