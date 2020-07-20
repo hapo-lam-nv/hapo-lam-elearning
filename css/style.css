@@ -113,3 +113,132 @@
   font-size: 15px;
   line-height: 18px;
 }
+
+
+/* Message */
+
+.hapo-wrap-message {
+  position: absolute;
+  width: 360px;
+  height: 190px;
+}
+
+.hapo-wrap-content-mes {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
+  display: none;
+}
+
+.hapo-fixed {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 350px;
+  z-index: 1;
+  margin-left: 970px;
+}
+
+.hapo-user-heading {
+  display: flex;
+  align-items: center;
+}
+
+.hapo-user {
+  margin: 0px auto 0px auto;
+  padding: 10px 0px 0px 60px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  color: #7f7f7f;
+}
+
+.hapo-close {
+  margin-left: 200px;
+}
+
+.hapo-wrap-message-content {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hapo-message-content {
+  width: 256px;
+  padding: 10px 5px 10px 5px;
+  display: flex;
+  align-items: center;
+  background: #f1f0f0;
+  border-radius: 15px;
+  /* text */
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 17px;
+  /* or 142% */
+  letter-spacing: -0.02em;
+  color: #505353;
+}
+
+.hapo-user-image {
+  height: 30px;
+}
+
+.hapo-message-content {
+  margin-left: 10px;
+}
+
+.hapo-button-message {
+  margin-top: 25px;
+}
+
+.hapo-button-message-link {
+  display: block;
+  width: 276px;
+  height: 37px;
+  text-align: center;
+  line-height: 37px;
+  margin: auto;
+  /*  */
+  background: #3184f7;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.det-message {
+  margin: 5px auto auto auto;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.hapo-wrap-space {
+  width: 100%;
+  height: 161px;
+  background-image: linear-gradient(0deg, rgb(182, 178, 178), #ffffff);
+}
+
+
+/* css icon message */
+
+.hapo-wrap-icon {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  right: 0%;
+  top: 103%;
+  /*  */
+  background-color: #2774df;
+  border-radius: 50%;
+}
+
+.hapo-wrap-icon>img {
+  margin-top: 1px;
+}
