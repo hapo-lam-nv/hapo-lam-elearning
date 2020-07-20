@@ -12,12 +12,12 @@ body {
 }
 
 @font-face {
-  font-family: font_main;
-  src: url("../font/UTMBryantLG.ttf");
+  font-family: main-font;
+  src: url("../font/UTM_BryantLG.ttf");
 }
 
-.font-main {
-  font-family: font_main;
+.main-font {
+  font-family: main-font;
   font-style: normal;
   letter-spacing: -0.05em;
   color: #ffffff;
