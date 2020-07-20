@@ -44,14 +44,12 @@
   padding: 5px 3px 5px 3px;
 }
 
-
 /*hover navigation */
 
 .hapo-items-link:hover {
   background-color: #b2d235;
   color: white;
 }
-
 
 /* css footer */
 
@@ -73,7 +71,7 @@
 }
 
 .hapo-footer-list-page {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .hapo-list-item {
