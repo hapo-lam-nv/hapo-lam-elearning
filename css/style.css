@@ -646,3 +646,82 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+/* css wrap-start learn */
+
+.hapo-wrap-learn {
+  padding: 134px 0px;
+  margin-top: 110px;
+  background: url(../image/background7.png);
+}
+
+.hapo-wrap-content-learn {}
+
+.hapo-content-learn {
+  width: 705px;
+  margin: auto;
+}
+
+.hapo-learn-heading {
+  width: 705px;
+  height: 158px;
+  /* color */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.hapo-button-learn {
+  margin: auto;
+}
+
+.hapo-learn-link {
+  margin-top: 5px;
+  /* color */
+  background-color: #ffffff;
+  color: #90ab26;
+  /* font */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 70px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+}
+
+
+/* css statistic */
+
+.hapo-static-data {
+  display: flex;
+  justify-content: center;
+}
+
+.hapo-statistic {
+  width: 300px;
+}
+
+.hapo-statistic-name,
+.hapo-statistic-data {
+  text-align: center;
+  /*  */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 74px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+}
+
+.hapo-statistic-data {
+  margin: 30px auto 140px auto;
+  color: #b2d235;
+}
