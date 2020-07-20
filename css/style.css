@@ -523,3 +523,126 @@
 .hapo-content img {
   margin-right: 15px;
 }
+
+
+/* feedback */
+
+.hapo-feedback-heading {
+  /* size */
+  margin: 110px auto 40px auto;
+  padding: 5px 0px;
+  width: 330px;
+  text-align: center;
+  /* border */
+  border-bottom: 5px solid #b2d235;
+  /* font */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 98px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #11114e;
+}
+
+.hapo-feedback-det {
+  /* size */
+  margin: auto;
+  width: 471px;
+  /* text */
+  text-align: center;
+  /* font */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 31px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #505353;
+}
+
+.hapo-wrap-feedback-users {
+  height: 200px;
+  margin-top: 40px;
+  /*  */
+  display: flex;
+  justify-content: center;
+}
+
+.left_icon,
+.right_icon {
+  z-index: 2;
+}
+
+.hapo-feedback-user {
+  margin: auto 14px;
+  width: 570px;
+}
+
+.hapo-wrap-feedback-content {
+  /* width */
+  width: 570px;
+  height: 163.47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  /* border */
+  border: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.hapo-feedback-user-content {
+  /* width */
+  width: 497px;
+  height: 89px;
+  z-index: 1;
+  /* border */
+  font-family: font_main;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.05em;
+  /* cross */
+  overflow-y: auto;
+}
+
+.hapo-message {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.hapo-user-inf {
+  margin-left: 10px;
+}
+
+.hapo-userN,
+.hapo-coursesN,
+.hapo-like {
+  display: flex;
+  align-items: center;
+  margin: 3px auto;
+}
+
+.hapo-wrap-feedback-users {
+  position: relative;
+}
+
+.hapo-wrap-slider {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+}
+
+.hapo-left-right {
+  position: absolute;
+  margin-top: 65px;
+  width: 89%;
+  display: flex;
+  justify-content: space-between;
+}
