@@ -367,9 +367,7 @@
   position: relative;
   height: 740px;
   margin: auto;
-  /* background */
-  background-image: url("../image/background_inf.png");
-  background-repeat: no-repeat;
+  background: url("../image/background_inf.png") no-repeat;
 }
 
 .hapo-inf_1 {
