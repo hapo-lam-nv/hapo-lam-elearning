@@ -24,10 +24,8 @@ $(document).ready(function () {
 
   $(".right_icon").click(function () {
     flusSlider(1);
-    // alert("right");
   });
   $(".left_icon").click(function () {
     flusSlider(-1);
-    // alert("left");
   });
 });
