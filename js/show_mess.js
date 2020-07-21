@@ -5,7 +5,6 @@ $(document).ready(function () {
   var index = 0;
 
   function show(n) {
-    console.log(n);
     var slider_len = $(".hapo-wrap-slider").length;
     $(".hapo-wrap-slider").css("visibility", "hidden");
     $(".hapo-wrap-slider").css("animation-name", "");
@@ -15,7 +14,6 @@ $(document).ready(function () {
     if (n >= slider_len) {
       index = 0;
     }
-    console.log(index);
     $(".hapo-wrap-slider").eq(index).css("visibility", "visible");
     $(".hapo-wrap-slider").eq(index).css("animation-name", "slide_show");
   }
