@@ -360,3 +360,55 @@
 .hapo-row-4 a {
   color: #b2d235;
 }
+
+/* css information HapoLearn */
+
+.hapo-inf-content {
+  position: relative;
+  height: 740px;
+  margin: auto;
+  background: url("../image/background_inf.png") no-repeat;
+}
+
+.hapo-inf_1 {
+  position: absolute;
+  top: -30%;
+}
+
+.hapo-inf_2 {
+  width: 750px;
+  height: 544px;
+  position: absolute;
+  right: 0;
+  top: 13.5%;
+  bottom: 0;
+}
+
+.hapo-content {
+  margin-left: 100px;
+  position: absolute;
+  top: 40%;
+  padding-left: 0;
+  color: #ffffff;
+}
+
+.hapo-content-heading {
+  margin-bottom: 15px;
+  font: normal bold 60px/86px main-font;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.hapo-content li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  font: 18px/25px main-font;
+  letter-spacing: -0.05em;
+}
+
+.hapo-content img {
+  margin-right: 15px;
+}
