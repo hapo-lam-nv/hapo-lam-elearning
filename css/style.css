@@ -412,3 +412,129 @@
 .hapo-content img {
   margin-right: 15px;
 }
+
+/* feedback */
+
+.hapo-feedback-heading {
+  /* size */
+  margin: 110px auto 40px auto;
+  padding: 5px 0;
+  width: 330px;
+  text-align: center;
+  border-bottom: 5px solid #b2d235;
+  font: normal bold 80px/98px main-font;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #11114e;
+}
+
+.hapo-feedback-det {
+  margin: auto;
+  width: 800px;
+  text-align: center;
+  font: 35px/31px main-font;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #505353;
+}
+
+.hapo-wrap-feedback-users {
+  height: 200px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.left_icon,
+.right_icon {
+  z-index: 2;
+}
+
+.hapo-feedback-user {
+  margin: auto 14px;
+  width: 50%;
+}
+
+.hapo-wrap-feedback-content {
+  /* width */
+  height: 163.47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  text-align: center;
+  /* border */
+  border: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.hapo-feedback-user-content {
+  /* width */
+  width: 497px;
+  height: 89px;
+  z-index: 1;
+  font: 16px/20px main-font;
+  letter-spacing: -0.05em;
+  /* cross */
+  overflow-y: auto;
+  direction: rtl;
+}
+
+.hapo-feedback-user-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.hapo-feedback-user-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+.hapo-feedback-user-content::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 5px;
+}
+
+.hapo-message {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hapo-user-inf {
+  margin-left: 10px;
+}
+
+.hapo-userN,
+.hapo-coursesN,
+.hapo-like {
+  display: flex;
+  align-items: center;
+  margin: 3px auto;
+}
+.hapo-userN {
+  color: #11114e;
+}
+.hapo-coursesN {
+  color: #505353;
+}
+.hapo-wrap-feedback-users {
+  position: relative;
+}
+
+.hapo-wrap-slider {
+  display: flex;
+  position: absolute;
+  visibility: hidden;
+  animation-duration: 2s;
+  width: 85%;
+  justify-content: center;
+}
+
+.hapo-left-right {
+  position: absolute;
+  margin-top: 65px;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
