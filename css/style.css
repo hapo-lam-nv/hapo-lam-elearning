@@ -154,9 +154,7 @@
   align-items: center;
   background: #f1f0f0;
   border-radius: 15px;
-  /* font */
   font: normal 600 12px/17px Open Sans;
-  /* or 142% */
   letter-spacing: -0.02em;
   color: #505353;
 }
