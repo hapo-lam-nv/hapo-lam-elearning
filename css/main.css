@@ -15,7 +15,14 @@ body {
   font-family: main-font;
   src: url("../font/UTM_BryantLG.ttf");
 }
-
+@keyframes slide_show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .main-font {
   font-family: main-font;
   font-style: normal;
