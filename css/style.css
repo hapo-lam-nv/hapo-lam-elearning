@@ -262,6 +262,101 @@
   /* text, font */
   text-align: center;
   font: normal bold 30px/70px Open Sans;
-  /* identical to box height */
   letter-spacing: -0.05em;
+}
+
+/* css wrap courses */
+.hapo-wrap-courses {
+  width: 100%;
+  position: relative;
+}
+
+.hapo-wrap-courses-row {
+  width: 85%;
+  position: relative;
+  top: -104px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.hapo-row-2 {
+  width: 480px;
+  height: 100px;
+  margin: 110px auto auto auto;
+  border-bottom: 5px solid #b2d235;
+  margin-bottom: 66px;
+}
+
+.hapo-other-courses h1 {
+  margin: 0 auto;
+  color: #11114e;
+  font: normal bold 75px/98px main-font;
+}
+
+.hapo-course {
+  width: 33.33%;
+  height: 470px;
+  margin: auto 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.hapo-courses-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 215px;
+  background: #3f6185;
+  border-radius: 15px 15px 0 0;
+}
+
+.courses-background {
+  background: #dc594c;
+}
+
+.hapo-courses-det-heading {
+  font: bold 26px/37px main-font;
+  letter-spacing: -0.05em;
+  color: #b2d235;
+}
+
+.hapo-courses-det {
+  margin: auto;
+  font: normal bold 12px/20px main-font;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+.courses-det {
+  padding: 0 20px;
+}
+
+.hapo-course-link {
+  display: flex;
+  justify-content: center;
+}
+
+.hapo-button-course-link {
+  display: block;
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  margin-top: 15px;
+  /* font, background*/
+  font: normal bold 18px/42px main-font;
+  background: #b2d235;
+  border-radius: 22px;
+  color: white;
+}
+
+.hapo-row-4 {
+  margin-top: 60px;
+  font: normal bold 40px/40px main-font;
+  color: #b2d235;
+  letter-spacing: -0.02em;
+}
+
+.hapo-row-4 a {
+  color: #b2d235;
 }
