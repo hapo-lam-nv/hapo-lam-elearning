@@ -538,3 +538,62 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* css wrap-start learn */
+
+.hapo-wrap-learn {
+  padding: 134px 0;
+  margin-top: 110px;
+  background: url(../image/background7.png);
+  background-size: contain;
+}
+
+.hapo-content-learn {
+  width: 705px;
+  margin: auto;
+}
+
+.hapo-learn-heading {
+  width: 705px;
+  height: 158px;
+  font: normal bold 60px/74px main-font;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.hapo-button-learn {
+  margin: auto;
+}
+
+.hapo-learn-link {
+  margin-top: 5px;
+  background-color: #ffffff;
+  color: #90ab26;
+  font: normal bold 30px/70px main-font;
+  letter-spacing: -0.05em;
+}
+
+/* css statistic */
+
+.hapo-static-data {
+  display: flex;
+  justify-content: center;
+  padding: 0 80px;
+}
+
+.hapo-statistic {
+  width: 33.33%;
+}
+
+.hapo-statistic-name,
+.hapo-statistic-data {
+  text-align: center;
+  font: normal bold 60px/74px main-font;
+  letter-spacing: -0.05em;
+}
+
+.hapo-statistic-data {
+  margin: 30px auto 140px auto;
+  color: #b2d235;
+}
