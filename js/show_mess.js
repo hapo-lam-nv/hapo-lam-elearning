@@ -34,7 +34,7 @@ $(document).ready(function () {
       if ($(".hapo-fixed").css("z-index") <= 2) {
         $(".hapo-fixed").css("z-index", "4");
       } else {
-        $(".hapo-fixed").css("z-index", "0");
+        $(".hapo-fixed").css("z-index", "2");
       }
     });
   });
