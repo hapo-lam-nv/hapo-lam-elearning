@@ -57,14 +57,14 @@
   display: flex;
   justify-content: space-between;
   background: #505353;
-  padding: 50px 0;
+  padding: 50px 50px;
 }
-
 .footer-det {
   position: relative;
   right: -50%;
   width: 250px;
   height: 50px;
+  text-shadow: 0.1px 0.1px;
   /* font */
   font-size: 20px;
   line-height: 25px;
@@ -72,6 +72,10 @@
 
 .hapo-footer-list-page {
   padding-left: 0;
+  width: 15%;
+}
+.hapo-list-left ul {
+  margin: auto;
 }
 
 .hapo-list-item {
@@ -80,11 +84,12 @@
 }
 
 .hapo-list-left {
-  margin-left: 100px;
+  /* margin-left: 100px; */
 }
 
 .hapo-wrap-contact {
-  margin-right: 150px;
+  /* margin-right: 150px; */
+  width: 25%;
   display: flex;
   align-items: center;
 }
@@ -437,6 +442,7 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: #505353;
+  text-shadow: 0.1px 0.1px 0.01px;
 }
 
 .hapo-wrap-feedback-users {
@@ -457,12 +463,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: center;
   /* border */
   border: 0.5px solid #e2e2e2;
   box-sizing: border-box;
   border-radius: 10px;
+  position: relative;
+  padding: 0 15px;
 }
 
 .hapo-feedback-user-content {
@@ -471,23 +479,21 @@
   height: 89px;
   font: 16px/20px main-font;
   letter-spacing: -0.05em;
-  /* cross */
-  overflow-y: auto;
-  direction: rtl;
+  border-left: 7px solid #d9dadc;
+  padding: 10px;
 }
 
-.hapo-feedback-user-content::-webkit-scrollbar {
-  width: 10px;
-}
-
-.hapo-feedback-user-content::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 5px;
-}
-
-.hapo-feedback-user-content::-webkit-scrollbar-thumb {
-  background: #c1c1c1;
-  border-radius: 5px;
+.tooltip {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background: #ffffff;
+  border-top: 0.5px solid #e2e2e2;
+  border-left: 0.5px solid #e2e2e2;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  bottom: -9px;
+  left: 19px;
 }
 
 .hapo-message {
@@ -503,6 +509,7 @@
 .hapo-userN,
 .hapo-coursesN,
 .hapo-like {
+  text-shadow: 0.1px 0.1px;
   display: flex;
   align-items: center;
   margin: 3px auto;
@@ -580,7 +587,9 @@
 .hapo-statistic {
   width: 33.33%;
 }
-
+.hapo-statistic-name {
+  color: #505353;
+}
 .hapo-statistic-name,
 .hapo-statistic-data {
   text-align: center;
