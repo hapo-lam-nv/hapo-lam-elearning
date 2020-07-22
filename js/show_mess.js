@@ -30,17 +30,10 @@ $(document).ready(function () {
   });
   // show close message
   $(".hapo-wrap-icon").click(function () {
-    $(".hapo-wrap-content-mes").toggle(0, function () {
-      if ($(".hapo-fixed").css("z-index") <= 2) {
-        $(".hapo-fixed").css("z-index", "4");
-      } else {
-        $(".hapo-fixed").css("z-index", "0");
-      }
-    });
+    $(".hapo-wrap-content-mes").toggle();
   });
 
   $(".hapo-close").click(function () {
     $(".hapo-wrap-content-mes").hide();
-    $(".hapo-fixed").css("z-index", "1");
   });
 });
