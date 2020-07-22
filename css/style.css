@@ -107,7 +107,7 @@
   background-color: white;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
   border-radius: 23px;
-  display: block;
+  display: none;
 }
 
 .hapo-fixed {
