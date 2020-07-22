@@ -28,4 +28,13 @@ $(document).ready(function () {
   $(".left_icon").click(function () {
     flusSlider(-1);
   });
+  // show close message
+  $(".hapo-wrap-icon").click(function () {
+    $(".hapo-wrap-content-mes").toggle();
+  });
+
+  $(".hapo-close").click(function () {
+    $(".hapo-wrap-content-mes").hide();
+    $(".hapo-fixed").css("z-index", "1");
+  });
 });
