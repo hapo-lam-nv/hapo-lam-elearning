@@ -30,7 +30,13 @@ $(document).ready(function () {
   });
   // show close message
   $(".hapo-wrap-icon").click(function () {
-    $(".hapo-wrap-content-mes").toggle();
+    $(".hapo-wrap-content-mes").toggle(0, function () {
+      if ($(".hapo-fixed").css("z-index") <= 2) {
+        $(".hapo-fixed").css("z-index", "4");
+      } else {
+        $(".hapo-fixed").css("z-index", "0");
+      }
+    });
   });
 
   $(".hapo-close").click(function () {
