@@ -8,7 +8,7 @@
 }
 
 .hapo-logo {
-  width: 38%;
+  width: 33%;
   display: flex;
   justify-content: center;
 }
@@ -19,18 +19,17 @@
 }
 
 .hapo-nav {
-  width: 62%;
+  width: 67%;
 }
 
 .hapo-nav-items {
-  padding-left: 0;
   display: flex;
   justify-content: center;
 }
 
 .hapo-nav-item {
   list-style-type: none;
-  margin-left: 4%;
+  margin: 0 9px;
   font: normal bold 14px/19px Open Sans;
 }
 
@@ -39,7 +38,7 @@
   text-shadow: 0.1px 0.1px 0.1px;
   text-decoration: none;
   border-radius: 17px;
-  padding: 0 2px;
+  padding: 7px 8px;
 }
 
 /*hover navigation */
@@ -543,6 +542,7 @@
 .right_icon {
   cursor: pointer;
 }
+
 /* css wrap-start learn */
 
 .hapo-wrap-learn {
