@@ -32,3 +32,26 @@ body {
 .text-fix {
   text-shadow: 1px 1px 1px;
 }
+
+.hapo-button-courses-link:hover {
+  transform: scale(1.1);
+}
+.hapo-button-course-link:hover {
+  transform: scale(1.05);
+}
+.left_icon:hover {
+  transform: scale(1.05);
+}
+.right_icon:hover {
+  transform: scale(1.05);
+}
+
+.hapo-wrap-icon:hover {
+  transform: scale(1.05);
+}
+.hapo-button-message-link:hover {
+  opacity: 0.8;
+}
+.hapo-close:hover {
+  opacity: 0.6;
+}
