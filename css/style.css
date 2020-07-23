@@ -60,7 +60,7 @@
 
 .footer-det {
   position: relative;
-  right: -50%;
+  right: -30%;
   width: 250px;
   height: 50px;
   text-shadow: 0.1px 0.1px;
@@ -70,8 +70,7 @@
 }
 
 .hapo-footer-list-page {
-  padding-left: 0;
-  width: 15%;
+  padding-left: 37px;
 }
 .hapo-list-left ul {
   margin: auto;
@@ -85,6 +84,7 @@
 .hapo-wrap-contact {
   width: 25%;
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
 }
 
@@ -130,6 +130,7 @@
 
 .hapo-close {
   margin-left: 200px;
+  cursor: pointer;
 }
 
 .hapo-wrap-message-content {
@@ -193,6 +194,7 @@
 /* css icon message */
 
 .hapo-wrap-icon {
+  cursor: pointer;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -213,6 +215,8 @@
 /*css banner  */
 
 .hapo-wrap-slide {
+  display: flex;
+  align-items: center;
   position: relative;
   height: 655px;
   width: 100%;
@@ -223,9 +227,7 @@
 .hapo-slide-desc {
   position: absolute;
   width: 513px;
-  height: 61px;
   margin-left: 6%;
-  margin-top: 15%;
 }
 
 .hapo-slide-desc-slogan {
@@ -295,8 +297,9 @@
   color: #90ab26;
 }
 .hapo-course {
-  width: 33.33%;
-  padding-bottom: 7%;
+  width: 380px;
+  height: 400px;
+  padding-bottom: 50px;
   margin: auto 1%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -309,7 +312,6 @@
   height: 215px;
   background: #3f6185;
   border-radius: 15px 15px 0 0;
-  padding: 10% 0;
 }
 
 .courses-background {
@@ -343,7 +345,7 @@
   width: 200px;
   height: 42px;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
   /* font, background*/
   font: normal bold 18px/42px main-font;
   background: #b2d235;
@@ -450,7 +452,7 @@
 
 .hapo-feedback-user {
   margin: auto 14px;
-  width: 50%;
+  width: 545px;
 }
 
 .hapo-wrap-feedback-content {
@@ -537,6 +539,10 @@
   justify-content: space-between;
 }
 
+.left_icon,
+.right_icon {
+  cursor: pointer;
+}
 /* css wrap-start learn */
 
 .hapo-wrap-learn {
