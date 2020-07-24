@@ -15,6 +15,7 @@ body {
   font-family: main-font;
   src: url("../font/UTM_BryantLG.ttf");
 }
+
 @keyframes slide_show {
   from {
     opacity: 0;
@@ -23,25 +24,31 @@ body {
     opacity: 1;
   }
 }
+
 .main-font {
   font-family: main-font;
   font-style: normal;
   letter-spacing: -0.05em;
   color: #ffffff;
 }
+
 .text-fix {
-  text-shadow: 1px 1px 1px;
+  /* text-shadow: 1px 1px 1px; */
+  -webkit-text-stroke-width: 2px;
 }
 
 .hapo-button-courses-link:hover {
   transform: scale(1.1);
 }
+
 .hapo-button-course-link:hover {
   transform: scale(1.05);
 }
+
 .left_icon:hover {
   transform: scale(1.05);
 }
+
 .right_icon:hover {
   transform: scale(1.05);
 }
@@ -49,9 +56,28 @@ body {
 .hapo-wrap-icon:hover {
   transform: scale(1.05);
 }
+
 .hapo-button-message-link:hover {
   opacity: 0.8;
 }
+
 .hapo-close:hover {
   opacity: 0.6;
+}
+
+.hapo-row-4 .hapo-other-courses:hover {
+  transform: scale(1.05);
+}
+
+.hapo-items-link:hover {
+  background-color: #b2d235;
+  color: white;
+}
+
+.hapo-list-item a:hover {
+  text-decoration: underline;
+}
+
+.hapo-face-link:hover {
+  transform: scale(1.05);
 }
