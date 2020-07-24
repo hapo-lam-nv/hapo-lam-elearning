@@ -1,7 +1,7 @@
 /* header */
 .hapo-wrap {
   width: 100%;
-  padding: 2% 0;
+  padding: 1% 0;
   display: flex;
   align-items: center;
 }
@@ -344,7 +344,7 @@
 
 .hapo-courses-det {
   margin: auto;
-  font: normal bold 12px/20px main-font;
+  font: normal bold 14px/20px main-font;
   text-align: center;
   letter-spacing: -0.05em;
 }
@@ -369,6 +369,7 @@
   background: #b2d235;
   border-radius: 22px;
   color: white;
+  -webkit-text-stroke-width: 1px;
 }
 
 .hapo-row-4 {
