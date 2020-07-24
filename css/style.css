@@ -331,15 +331,27 @@
   border-radius: 15px 15px 0 0;
 }
 
+.color-background-left {
+  background: #24abe2;
+}
+
+.color-background-right {
+  background: #1b75bb;
+}
+
 .courses-background {
   background: #dc594c;
 }
 
+.color-background-left-row1 {
+  background: #556598;
+}
+
 .hapo-courses-det-heading {
   font: bold 26px/37px main-font;
-  letter-spacing: -0.05em;
   color: #b2d235;
   -webkit-text-stroke-width: 1px;
+  letter-spacing: 0em;
 }
 
 .hapo-courses-det {
@@ -350,6 +362,7 @@
 }
 
 .courses-det {
+  letter-spacing: 0em;
   padding: 0 20px;
 }
 
@@ -369,7 +382,7 @@
   background: #b2d235;
   border-radius: 22px;
   color: white;
-  -webkit-text-stroke-width: 1px;
+  letter-spacing: 0em;
 }
 
 .hapo-row-4 {
