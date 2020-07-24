@@ -240,6 +240,11 @@
   color: #11114e;
 }
 
+.hapo-slide-desc-slogan img {
+  position: relative;
+  top: 10px;
+}
+
 .hapo-slide-desc-slogan-det {
   display: block;
   width: 249px;
