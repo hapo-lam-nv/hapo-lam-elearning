@@ -4,24 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="font/font.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="icon" type="image/png" href="image/chim2.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/768.css">
     <title>Hapo</title>
 </head>
 
 <body>
-
-    <header>
-        <div class="hapo-wrap">
-            <div class="hapo-logo">
+    <header class="container-fluid">
+        <div class="row hapo-wrap">
+            <div class="col-md-12 col-xl-4 hapo-logo">
                 <a href="#" class="hapo-logo-link">
                     <img class="hapo-logo-image" src="image/logo.png" alt="HAPO">
                 </a>
             </div>
-            <div class="hapo-nav">
+            <div class="col-md-12 col-xl-8 hapo-nav">
                 <ul class="hapo-nav-items">
                     <li class="hapo-nav-item">
                         <a href="#" class="hapo-items-link">HOME</a>
@@ -51,7 +52,7 @@
         <div class="hapo-wrap-slide">
             <div class="hapo-slide-desc">
                 <h1 class="hapo-slide-desc-slogan">
-                    Learn Anytime, Anywhere <b class="text-fix">at HapoLearn</b>
+                    Learn Anytime, Anywhere <br><b class="text-fix">at HapoLearn</b>
                     <img src="image/main_chim.png" alt="??">
                     <b class="text-fix">!</b>
                 </h1>
@@ -70,63 +71,72 @@
         <div class="hapo-wrap-space">
 
         </div>
-        <div class="hapo-wrap-courses">
-            <div class="hapo-wrap-courses-row">
-                <div class="hapo-course">
-                    <div class="hapo-courses-image">
-                        <img src="image/course1.png" alt="course 1">
-                    </div>
-                    <div class="hapo-courses-det">
-                        <h2 class="hapo-courses-det-heading">
-                            HTML/CSS/js Tutorial
-                        </h2>
-                        <div class="courses-det">
-                            I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite
-                            a bit, but never touched anything in regards to web development.
+        <div class="container-fluid container-xl hapo-wrap-courses">
+            <div class="row hapo-wrap-courses-row">
+                <div class="col-md-4 hapo-course">
+                    <div>
+                        <div class="hapo-courses-image">
+                            <img class="image_main" src="image/course1.png" alt="course 1">
                         </div>
-                    </div>
-                    <div class="hapo-course-link main-font">
-                        <a href="#" class="hapo-button-course-link">
-                            Take This Course
-                        </a>
+                        <div class="hapo-courses-det">
+                            <h2 class="hapo-courses-det-heading">
+                                HTML/CSS/js Tutorial
+                            </h2>
+                            <div class="courses-det">
+                                I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded
+                                quite
+                                a bit, but never touched anything in regards to web development.
+                            </div>
+                        </div>
+                        <div class="hapo-course-link main-font">
+                            <a href="#" class="hapo-button-course-link">
+                                Take This Course
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="hapo-course">
-                    <div class="hapo-courses-image courses-background">
-                        <img src="image/laravel.png" alt="course 1">
-                    </div>
-                    <div class="hapo-courses-det">
-                        <h2 class="hapo-courses-det-heading">
-                            HTML/CSS/js Tutorial
-                        </h2>
-                        <div class="courses-det">
-                            I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite
-                            a bit, but never touched anything in regards to web development.
+                <div class="col-md-4 hapo-course">
+                    <div>
+                        <div class="hapo-courses-image courses-background">
+                            <img src="image/laravel.png" alt="course 1">
                         </div>
-                    </div>
-                    <div class="hapo-course-link main-font">
-                        <a href="#" class="hapo-button-course-link">
-                            Take This Course
-                        </a>
+                        <div class="hapo-courses-det">
+                            <h2 class="hapo-courses-det-heading">
+                                HTML/CSS/js Tutorial
+                            </h2>
+                            <div class="courses-det">
+                                I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded
+                                quite
+                                a bit, but never touched anything in regards to web development.
+                            </div>
+                        </div>
+                        <div class="hapo-course-link main-font">
+                            <a href="#" class="hapo-button-course-link">
+                                Take This Course
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="hapo-course">
-                    <div class="hapo-courses-image color-background-left-row1">
-                        <img src="image/php.png" alt="course 1">
-                    </div>
-                    <div class="hapo-courses-det">
-                        <h2 class="hapo-courses-det-heading">
-                            HTML/CSS/js Tutorial
-                        </h2>
-                        <div class="courses-det">
-                            I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite
-                            a bit, but never touched anything in regards to web development.
+                <div class="col-md-4 hapo-course">
+                    <div>
+                        <div class="hapo-courses-image color-background-left-row1">
+                            <img src="image/php.png" alt="course 1">
                         </div>
-                    </div>
-                    <div class="hapo-course-link main-font">
-                        <a href="#" class="hapo-button-course-link">
-                            Take This Course
-                        </a>
+                        <div class="hapo-courses-det">
+                            <h2 class="hapo-courses-det-heading">
+                                HTML/CSS/js Tutorial
+                            </h2>
+                            <div class="courses-det">
+                                I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded
+                                quite
+                                a bit, but never touched anything in regards to web development.
+                            </div>
+                        </div>
+                        <div class="hapo-course-link main-font">
+                            <a href="#" class="hapo-button-course-link">
+                                Take This Course
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,62 +148,71 @@
                 </div>
             </div>
 
-            <div class="hapo-wrap-courses-row hapo-row-3">
-                <div class="hapo-course">
-                    <div class="hapo-courses-image color-background-left">
-                        <img src="image/CSS.png" alt="course 1">
-                    </div>
-                    <div class="hapo-courses-det">
-                        <h2 class="hapo-courses-det-heading">
-                            HTML/CSS/js Tutorial
-                        </h2>
-                        <div class="courses-det">
-                            I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite
-                            a bit, but never touched anything in regards to web development.
+            <div class="row hapo-wrap-courses-row hapo-row-3">
+                <div class="col-md-4 hapo-course">
+                    <div>
+                        <div class="hapo-courses-image color-background-left">
+                            <img src="image/CSS.png" alt="course 1">
                         </div>
-                    </div>
-                    <div class="hapo-course-link main-font">
-                        <a href="#" class="hapo-button-course-link">
-                            Take This Course
-                        </a>
+                        <div class="hapo-courses-det">
+                            <h2 class="hapo-courses-det-heading">
+                                HTML/CSS/js Tutorial
+                            </h2>
+                            <div class="courses-det">
+                                I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded
+                                quite
+                                a bit, but never touched anything in regards to web development.
+                            </div>
+                        </div>
+                        <div class="hapo-course-link main-font">
+                            <a href="#" class="hapo-button-course-link">
+                                Take This Course
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="hapo-course">
-                    <div class="hapo-courses-image courses-background">
-                        <img src="image/rails_v2.png" alt="course 1">
-                    </div>
-                    <div class="hapo-courses-det">
-                        <h2 class="hapo-courses-det-heading">
-                            HTML/CSS/js Tutorial
-                        </h2>
-                        <div class="courses-det">
-                            I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite
-                            a bit, but never touched anything in regards to web development.
+                <div class="col-md-4 hapo-course">
+                    <div>
+                        <div class="hapo-courses-image courses-background">
+                            <img src="image/rails_v2.png" alt="course 1">
                         </div>
-                    </div>
-                    <div class="hapo-course-link main-font">
-                        <a href="#" class="hapo-button-course-link">
-                            Take This Course
-                        </a>
+                        <div class="hapo-courses-det">
+                            <h2 class="hapo-courses-det-heading">
+                                HTML/CSS/js Tutorial
+                            </h2>
+                            <div class="courses-det">
+                                I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded
+                                quite
+                                a bit, but never touched anything in regards to web development.
+                            </div>
+                        </div>
+                        <div class="hapo-course-link main-font">
+                            <a href="#" class="hapo-button-course-link">
+                                Take This Course
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="hapo-course">
-                    <div class="hapo-courses-image color-background-right">
-                        <img src="image/java 1.png" alt="course 1">
-                    </div>
-                    <div class="hapo-courses-det">
-                        <h2 class="hapo-courses-det-heading">
-                            HTML/CSS/js Tutorial
-                        </h2>
-                        <div class="courses-det">
-                            I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite
-                            a bit, but never touched anything in regards to web development.
+                <div class="col-md-4 hapo-course">
+                    <div>
+                        <div class="hapo-courses-image color-background-right">
+                            <img src="image/java 1.png" alt="course 1">
                         </div>
-                    </div>
-                    <div class="hapo-course-link main-font">
-                        <a href="#" class="hapo-button-course-link">
-                            Take This Course
-                        </a>
+                        <div class="hapo-courses-det">
+                            <h2 class="hapo-courses-det-heading">
+                                HTML/CSS/js Tutorial
+                            </h2>
+                            <div class="courses-det">
+                                I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded
+                                quite
+                                a bit, but never touched anything in regards to web development.
+                            </div>
+                        </div>
+                        <div class="hapo-course-link main-font">
+                            <a href="#" class="hapo-button-course-link">
+                                Take This Course
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -211,6 +230,7 @@
         <div class="hapo-wrap-inf">
             <div class="hapo-inf-content">
                 <img class="hapo-inf_1" src="image/image_inf_1.png" alt="image_inf_1">
+                <div class="hapo-content-heading text-fix hapo-content-heading_768">Why HapoLearn?</div>
                 <div class="hapo-wrap-inf-content">
                     <ul class="hapo-content">
                         <div class="hapo-content-heading text-fix">Why HapoLearn?</div>

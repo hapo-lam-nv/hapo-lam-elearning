@@ -1,0 +1,54 @@
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .hapo-nav-items {
+    padding-left: 0;
+    justify-content: space-around;
+  }
+
+  .hapo-nav {
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  .hapo-wrap-slide {
+    height: 350px;
+    background-image: url(../image/Hapo_Learn_banner_768.png);
+  }
+
+  .hapo-slide-desc-slogan {
+    font: 30px/37px main-font;
+  }
+
+  .hapo-slide-desc-slogan-det {
+    font: 16px/20px main-font;
+  }
+
+  .hapo-button-courses-link {
+    width: 200px;
+    height: 37px;
+    font: normal bold 16px/20px main-font;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hapo-slide-desc-slogan img {
+    top: 0;
+  }
+
+  .courses-det {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .hapo-content-heading {
+    display: none;
+  }
+
+  .hapo-content-heading_768 {
+    display: block;
+  }
+}

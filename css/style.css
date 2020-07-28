@@ -1,6 +1,5 @@
 /* header */
 .hapo-wrap {
-  width: 100%;
   padding: 1% 0;
   display: flex;
   align-items: center;
@@ -22,6 +21,7 @@
 }
 
 .hapo-nav-items {
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
 }
@@ -242,7 +242,6 @@
 
 .hapo-slide-desc-slogan img {
   position: relative;
-  top: 10px;
 }
 
 .hapo-slide-desc-slogan-det {
@@ -282,7 +281,7 @@
 }
 
 .hapo-wrap-courses-row {
-  width: 85%;
+  /* width: 85%; */
   position: relative;
   top: -104px;
   display: flex;
@@ -315,10 +314,15 @@
 
 .hapo-course {
   width: 380px;
-  padding-bottom: 55px;
-  margin: auto 1%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  /* padding-bottom: 55px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); */
+  /* border-radius: 15px; */
+}
+
+.hapo-course > div {
   border-radius: 15px;
+  /* overflow: hidden; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .hapo-courses-image {
@@ -347,6 +351,7 @@
 }
 
 .hapo-courses-det-heading {
+  margin: 15px;
   font: bold 26px/37px main-font;
   color: #b2d235;
   -webkit-text-stroke-width: 1px;
@@ -383,6 +388,7 @@
   color: white;
   letter-spacing: 0em;
   box-shadow: inset 0px 1.5px 2px #6f8710;
+  margin-bottom: 47px;
 }
 
 .hapo-row-4 {
@@ -401,13 +407,18 @@
 .hapo-inf-content {
   position: relative;
   padding: 96px 0;
-  background: url("../image/background_inf.png") no-repeat;
+  /* background: url("../image/background_inf.png") no-repeat; */
   background-size: cover;
 }
 
 .hapo-inf_1 {
   position: absolute;
   top: -30%;
+}
+
+.hapo-wrap-inf {
+  background: url(../image/background_inf.png) no-repeat;
+  background-size: cover;
 }
 
 .hapo-wrap-inf-content {
@@ -435,6 +446,9 @@
   text-align: center;
   letter-spacing: -0.02em;
   color: #ffffff;
+}
+.hapo-content-heading_768 {
+  display: none;
 }
 
 .hapo-content li {
@@ -640,4 +654,8 @@
 .hapo-statistic-data {
   margin: 3% auto 25% auto;
   color: #b2d235;
+}
+
+.responsive {
+  display: none;
 }
